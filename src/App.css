@@ -32,7 +32,226 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+@font-face {
+  font-family: Centra;
+  src: url('./assests/font/CentraNo2-Bold.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Centra;
+  src: url('./assests/font/CentraNo2-Medium.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Centra;
+  src: url('./assests/font/CentraNo2-Book.ttf');
+  font-weight: 400;
+}
+
+body {
+  font-weight: 400;
+  background-color: #121212 !important;
+  color: white !important;
+  overflow-x: hidden;
+  position: relative;
+  font-family: 'Centra', sans-serif !important;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  z-index: 9999;
+  transition: 0.32 ease-in-out;
+  display:flex;
+
+  justify-content: space-between!important;
+
+}
+.container{
+  display: none;
+  min-width :100% !important;;
+  display: flex;
+
+}
+
+
+
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav a {
+  margin-right: 44px;
+}
+
+.right-nav {
+  display: flex;
+  align-items: center;
+  
+
+}
+
+.right-nav>div {
+
+  margin-right: 20px;
+  ;
+}
+
+.scrolled {
+  background-color: #121212;
+}
+
+.nav-link {
+  font-weight: 400;
+  color: #fff !important;
+  letter-spacing: 0.8px;
+  padding: 0 25px;
+  font-size: 18px;
+  opacity: 0.75;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  opacity: 1;
+} 
+
+.icons a {
+  width: 42px !important;
+  height: 42px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(217, 217, 217, 0.1);
+  border-radius: 50%;
+  line-height: 1;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  margin-right: 10px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+}
+
+.icons a::before {
+  content: "";
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: 0.3s ease-in-out;
+
+}
+
+.icons a img {
+  transition: 0.3s ease-in-out;
+
+}
+
+.icons a:hover::before {
+  transform: scale(1);
+}
+
+.icons a:hover img {
+  filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
+}
+
+.right-nav>a>button {
+  background-color: transparent;
+  color: white;
+  border: 1px white solid;
+  padding: 10px 12px;
+  font-weight: 700;
+  transition: 0.3s ease-in-out;
+  position: relative;
+
+}
+
+.right-nav button::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #ffffff;
+  transform: scale(0);
+  z-index: -1 ;
+  top: 0;
+  left: 0;
+  transition: 0.3s ease-in-out;
+  
+}
+
+.right-nav button:hover::before {
+
+  transform: scale(1.05);
+}
+
+.right-nav button:hover {
+  z-index: 20;
+  color: #121212;
+}
+#basic-navbar-nav{
+  flex-grow: 0;
+}
+@media only screen and (max-width: 992px) {
+ .right-nav{
+ display: none;
+ }
+
+}
+
+.footericons a {
+  width: 54px !important;
+  height: 54px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(217, 217, 217, 0.1);
+  border-radius: 50%;
+  line-height: 1;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  margin-right: 15px;
+}
+
+
+.footericons a::before {
+  content: "";
+  width: 54px;
+  height: 54px;
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: 0.3s ease-in-out;
+
+}
+
+.footericons a img {
+  transition: 0.3s ease-in-out;
+
+}
+
+.footericons a:hover::before {
+  transform: scale(1);
+}
+
+.footericons a:hover img {
+  filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
+}
+
+.centra{
+  font-family: "Centra, sans-serif";
 }
