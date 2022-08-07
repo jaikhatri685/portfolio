@@ -73,7 +73,7 @@ const Banner = () => {
           <a href="#contact"><button className=" flex flex-row tracking-wider text-2xl font-bold">Let's Connect<ArrowRightCircle className="banner-button-svg pl-2 w-9 h-9" style={{background:"transparent" ,border:"none"}}/></button> </a>
           </div>
         </div>
-        <div className="flex justify-center w-full md:w-1/2 mt-12 md:mt-0">
+        <div className="flex justify-center w-full md:w-1/2 mt-12 ">
           <img alt="Header Image" src={HeaderIcon}/>
         </div>
       </div>
