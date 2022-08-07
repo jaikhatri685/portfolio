@@ -46,7 +46,7 @@ const Banner = () => {
   return (
     
     <section id="home">
-    <div className="pt-20 pb-20  inter z-0 relative banner">
+    <div className=" pt-48 lg:pt-20 pb-32  inter z-0 relative banner">
       <div className="flex  flex-col md:flex-row md:justify-between items-center w-full">
         <div className="w-full md:w-1/2 px-16">
           <div className="flex flex-row justify-start ">

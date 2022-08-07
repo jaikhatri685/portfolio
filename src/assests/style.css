@@ -71,6 +71,12 @@ a, a:hover, a:focus, a:active {
     margin-right: auto;
 
 }
+.projects {
+    background-image: url('./images/footer-bg.png');
+
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 
 .proj-imgbx::before {
     content: "";
@@ -88,6 +94,7 @@ a, a:hover, a:focus, a:active {
 .proj-imgbx:hover::before {
     height: 100%;
 }
+
 
 .proj-tx {
     position: absolute;
@@ -194,3 +201,4 @@ input:focus,textarea:focus{
     position: relative;
 
   }
+ 
