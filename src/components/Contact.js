@@ -48,7 +48,7 @@ const Contact = () => {
 
   return (
     <section className="contact" id="contact">
-      <div className="pt-20 pb-40">
+      <div className="pt-24 pb-24">
         <div className="flex flex-col  lg:flex-row justify-between  lg:mx-24 ">
           <div className=" flex flex-row justify-center items-start lg:w-1/2 mb-20 lg:mb-0 lg:mr-10">
             <img src={ContactImage} />
