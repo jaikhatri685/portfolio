@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.4878b7e5.css",
-    "main.js": "/portfolio/static/js/main.e6917518.js",
+    "main.css": "/portfolio/static/css/main.37bfc88c.css",
+    "main.js": "/portfolio/static/js/main.acc5efd6.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/color-sharp.png": "/portfolio/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/HousePricePrediction.png": "/portfolio/static/media/HousePricePrediction.5f219cce600b03b2c139.png",
     "static/media/amazon_full_stack_clone.png": "/portfolio/static/media/amazon_full_stack_clone.7e0909b1da2ed3ff3d9c.png",
     "static/media/Spotify-clone.png": "/portfolio/static/media/Spotify-clone.23d82f49318dccbbbeba.png",
+    "static/media/ipod.png": "/portfolio/static/media/ipod.527db4d6ec97f12a8d5c.png",
     "static/media/Expense_tracker.png": "/portfolio/static/media/Expense_tracker.4c19aff8d5b78cd3b704.png",
     "static/media/banner-bg.png": "/portfolio/static/media/banner-bg.cc1273af450504afe755.png",
     "static/media/header-img.svg": "/portfolio/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
@@ -35,12 +36,12 @@
     "index.html": "/portfolio/index.html",
     "static/media/nav-icon1.svg": "/portfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "static/media/nav-icon2.svg": "/portfolio/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
-    "main.4878b7e5.css.map": "/portfolio/static/css/main.4878b7e5.css.map",
-    "main.e6917518.js.map": "/portfolio/static/js/main.e6917518.js.map",
+    "main.37bfc88c.css.map": "/portfolio/static/css/main.37bfc88c.css.map",
+    "main.acc5efd6.js.map": "/portfolio/static/js/main.acc5efd6.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4878b7e5.css",
-    "static/js/main.e6917518.js"
+    "static/css/main.37bfc88c.css",
+    "static/js/main.acc5efd6.js"
   ]
 }
