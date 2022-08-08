@@ -47,7 +47,7 @@ const Skills = () => {
           </div>
           <div className="flex flex-col justify-between items-center">
             <img className="mb-4 w-1/2" src={JavaScriptIcon} />
-            <h1 className="font-bold  text-lg md:inter md:text-3xl tracking-wider">
+            <h1 className="font-bold  text-lg inter md:text-3xl tracking-wider">
               JavaScript
             </h1>
           </div>
@@ -101,7 +101,7 @@ const Skills = () => {
           </div>
           <div className="flex flex-col justify-between items-center">
             <img className="mb-4 w-1/2" src={MatplotlibIcon} />
-            <h1 className="font-bold  text-lg md:inter text-3xl">Matplotlib</h1>
+            <h1 className="font-bold  text-lg inter md:text-3xl">Matplotlib</h1>
           </div>
         </Carousel>
       </div>
