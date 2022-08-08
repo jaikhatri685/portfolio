@@ -91,11 +91,6 @@ a, a:hover, a:focus, a:active {
     border-radius: 24px;
 }
 
-.proj-imgbx:hover::before {
-    height: 100%;
-}
-
-
 .proj-tx {
     position: absolute;
     top: 0;
@@ -106,9 +101,14 @@ a, a:hover, a:focus, a:active {
 
 }
 
-.proj-imgbx:hover .proj-tx {
-    opacity: 0.85;
-}
+@media only screen and (min-width: 1024px) {
+    .proj-imgbx:hover::before {
+        height: 100%;
+    }
+    .proj-imgbx:hover .proj-tx {
+        opacity: 0.85;
+    }
+  }
 
 .contact{
     background-image: linear-gradient(90.21deg, rgb(170, 54, 124) -5.91%, rgb(74, 47, 189) 111.58%);

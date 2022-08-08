@@ -53,12 +53,13 @@ const Contact = () => {
           <div className=" flex flex-row justify-center items-start lg:w-1/2 mb-20 lg:mb-0 lg:mr-10">
             <img src={ContactImage} />
           </div>
-          <div className="lg:w-1/2 w-full px-6">
+          <div className="lg:w-1/2 px-6">
             <h2 className="text-4xl mb-6">Get In Touch</h2>
             <form onSubmit={handleSubmit}>
-              <div className="flex flex-row justify-between">
+              <div className="flex  flex-col lg:flex-row justify-between">
                 <input
-                  className="w-1/2"
+                  className="  lg:w-1/2"
+                  required
                   name="first_name"
                   type="text"
                   value={form.first_name}
@@ -69,7 +70,7 @@ const Contact = () => {
                 />
                 <input
                   name="last_name"
-                  className="w-1/2"
+                  className=" lg:w-1/2"
                   type="text"
                   value={form.last_name}
                   placeholder="Last Name"
@@ -78,10 +79,11 @@ const Contact = () => {
                   }
                 />
               </div>
-              <div className="flex flex-row justify-between">
+              <div className="flex flex-col lg:flex-row justify-between">
                 <input
                   name="email"
-                  className="w-1/2"
+                  required
+                  className=" lg:w-1/2"
                   type="email"
                   value={form.email}
                   placeholder="Email"
@@ -89,7 +91,8 @@ const Contact = () => {
                 />
                 <input
                   name="phone_number"
-                  className="w-1/2"
+                  required
+                  className=" lg:w-1/2"
                   type="tel"
                   value={form.phone_number}
                   placeholder="Phone No."
@@ -108,7 +111,7 @@ const Contact = () => {
                   }}
                 />
               </div>
-              <div className="flex justify-start pl-4 ">
+              <div className="flex justify-center lg:justify-start pl-4 ">
                 <div className="relative inline-block ">
                   <button className="contact_button" type="submit">
                     <span>{buttonText}</span>

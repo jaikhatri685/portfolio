@@ -72,7 +72,7 @@ const NavbarTop = () => {
               Projects
             </Nav.Link>
             <Nav.Link
-              href="https://drive.google.com/file/d/1OpcNIItrWG8943HsGxFqvlq9a3LObjsT/view?usp=sharing"
+              href="https://drive.google.com/file/d/1TLvwJHUgGMZK1oZpTbSwiO4TeiXSlGKY/view?usp=sharing"
               target="_blank"
             >
               Resume
