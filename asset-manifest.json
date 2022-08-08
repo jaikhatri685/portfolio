@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.37bfc88c.css",
-    "main.js": "/portfolio/static/js/main.dabf6704.js",
+    "main.css": "/portfolio/static/css/main.6fb52803.css",
+    "main.js": "/portfolio/static/js/main.0db34a25.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/color-sharp.png": "/portfolio/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/HousePricePrediction.png": "/portfolio/static/media/HousePricePrediction.5f219cce600b03b2c139.png",
@@ -36,12 +36,12 @@
     "index.html": "/portfolio/index.html",
     "static/media/nav-icon1.svg": "/portfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "static/media/nav-icon2.svg": "/portfolio/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
-    "main.37bfc88c.css.map": "/portfolio/static/css/main.37bfc88c.css.map",
-    "main.dabf6704.js.map": "/portfolio/static/js/main.dabf6704.js.map",
+    "main.6fb52803.css.map": "/portfolio/static/css/main.6fb52803.css.map",
+    "main.0db34a25.js.map": "/portfolio/static/js/main.0db34a25.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.37bfc88c.css",
-    "static/js/main.dabf6704.js"
+    "static/css/main.6fb52803.css",
+    "static/js/main.0db34a25.js"
   ]
 }
