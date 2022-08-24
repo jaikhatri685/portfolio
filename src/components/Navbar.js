@@ -31,7 +31,7 @@ const NavbarTop = () => {
 
   return (
     <div className="fixed top-0 z-10 w-full ">
-    <Navbar expand="lg" variant="light" className={`p-4  ${scrolled ? "scrolled" : "unscrolled"}`}>
+    <Navbar collapseOnSelect expand="lg" variant="light" className={`p-4  ${scrolled ? "scrolled" : "unscrolled"}`}>
       <Container className="m-0">
         <Navbar.Brand href="#home">
           <img src={Logo} alt="logo" />

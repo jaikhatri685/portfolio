@@ -82,9 +82,9 @@ html {
   display: flex;
 
 }
-
-
-
+.navbar-toggler>* {
+  width: 15px;
+}
 
 .navbar-nav {
   display: flex;
