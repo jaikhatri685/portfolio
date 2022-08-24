@@ -14,18 +14,26 @@ const Projects = () => {
       github: "https://github.com/khatrijai/Amazon-Full-Stack-Clone",
     },
     {
-      title: "Spotify Clone",
-      description:
-        "Developed Spotify Clone using HTML, Javascript and CSS. User is enabled with standard functionalities of Spotify such as play, pause, change songs and increase volume.",
-      imageURL: SpotifyCloneIcon,
-      github: "https://github.com/khatrijai/SpotifyClone",
-    },
-    {
       title: "Expense Tracker",
       description:
         "Developed easy to use Expense Tracker. Used ReactJS to develop the various components along with CSS styling",
       imageURL: ExpenseTrackerIcon,
       github: "https://github.com/khatrijai/Expense-Tracker",
+    },
+    {
+      title: "iPod Clone",
+      description:
+        "Developed ipod clone with round menu scroller",
+      imageURL: ExpenseTrackerIcon,
+      github: "https://github.com/khatrijai/ipod",
+    },
+    
+    {
+      title: "Spotify Clone",
+      description:
+        "Developed Spotify Clone using HTML, Javascript and CSS. User is enabled with standard functionalities of Spotify such as play, pause, change songs and increase volume.",
+      imageURL: SpotifyCloneIcon,
+      github: "https://github.com/khatrijai/SpotifyClone",
     },
     {
       title: "LeadTracker-Chrome Extension",
@@ -44,12 +52,12 @@ const Projects = () => {
   ];
   return (
     <section id="projects">
-    <div className="projects py-32 px-14 bg-black z-0 ">
+    <div className="projects pb-32 pt-20 px-14 bg-black z-0 ">
       <div className="flex flex-col justify-between items-center">
         <h2 className=" mb-4  inter font-bold text-4xl tracking-wider">
           Projects
         </h2>
-        <p className="mb-16  inter font-normal text-2xl tracking-wider" style={{color:"rgb(122, 122, 122)"}}>Take a look at the different projects I've done!</p>
+        <p className="mb-16  inter font-normal text-xl tracking-wider" style={{color:"rgb(122, 122, 122)"}}>Take a look at the different projects I've done!</p>
 
         {/* <p className=" tracking-wider">Below are some of my projects</p> */}
         <div className="grid   grid-cols-1  lg:grid-cols-3 gap-10">
