@@ -74,19 +74,20 @@ const NavbarTop = () => {
             <Nav.Link
               href="https://drive.google.com/file/d/1ymK6U7s7YdXSSuj00Ur0d1dpw5wt05fO/view?usp=sharing"
               target="_blank"
+              rel="noopener"
             >
               Resume
             </Nav.Link>
           </Nav>
           <div className="right-nav">
             <div className="icons">
-            <a href="https://www.linkedin.com/in/jai-khatri-50668b193/" target="_blank">
+            <a href="https://www.linkedin.com/in/jai-khatri-50668b193/" target="_blank" rel="noopener">
               <img src={NavIcon1} alt="Linkedin" />
             </a>
-            <a href="https://www.facebook.com/khatri.jai906/" target="_blank">
+            <a href="https://www.facebook.com/khatri.jai906/" target="_blank" rel="noopener">
               <img src={NavIcon2} alt="Facebook" />
             </a>
-            <a href="https://github.com/khatrijai" target="_blank">
+            <a href="https://github.com/khatrijai" target="_blank" rel="noopener">
               <img src={NavIcon3} alt="github" />
             </a>
             </div>  

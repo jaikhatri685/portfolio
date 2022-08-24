@@ -66,7 +66,7 @@ const Projects = () => {
             return (
               <div className="rounded-3xl proj-imgbx relative ">
                 <img className="rounded-t-3xl lg:rounded-3xl" src={item.imageURL} />
-                <a className="text-white" href={item.github} target="_blank">
+                <a className="text-white" href={item.github} target="_blank" rel="noopener">
                 <div className="proj-tx h-full w-full cursor-pointer flex  flex-row items-center justify-center" >
                     <div>
                     <h1 className="text-xl font-bold lg:text-2xl inter tracking-wider">{item.title}</h1>
