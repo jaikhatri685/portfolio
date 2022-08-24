@@ -1,7 +1,6 @@
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import { useState, useEffect } from "react";
 import HeaderIcon from "../assests/images/header-img.svg";
-import { border } from "@mui/system";
 
 const Banner = () => {
   const rotate = ["Frontend WebDeveloper", " Data Analyst", "Coder"];
@@ -9,7 +8,6 @@ const Banner = () => {
   const [isdeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300);
-  const period = 2000; //extra time between extra letter being typed out;
 
   useEffect(() => {
     const ticker = setInterval(() => {
@@ -30,7 +28,7 @@ const Banner = () => {
       : fullText.substring(0, text.length + 1);
     setText(updatedText);
 
-    if (isdeleting && updatedText != "") {
+    if (isdeleting && updatedText !== "") {
       setDelta((prevdelta) => {
         return prevdelta * 0.9;
       });
